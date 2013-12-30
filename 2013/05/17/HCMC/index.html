@@ -1,132 +1,77 @@
-<!doctype html>
-<!--[if lt IE 9]><html class="ie" lang="en"><![endif]-->
-<!--[if gte IE 9]><!--> <html lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lucas The Nomad">
+    <meta name="author" content="Lucas Parry">
+
     <title>Lucas The Nomad |  Ho Chi Minh City, Vietnam </title>
-    <meta name="description" content="description">
 
-    <link href="favicon.ico" rel="icon" type="image/x-icon" />
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.css" rel="stylesheet">
 
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{RSS}">
+    <!-- Add custom CSS here -->
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/font-awesome/font-awesome.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/luomo.style.20130120.css">
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-    <!-- jQuery -->
-    <script src="javascript/jquery.min.js"></script>
-
-    <!-- Add jQuery helper classes to the html element -->
-    <script>$('html').removeClass('no-js').addClass('js');</script>
-
-    <!-- Declare JavaScript variables -->
-    <script>
-    //<![CDATA[
-      var disqus_shortname = "lucasthenomad";
-      var dark_post_bg           = "#494f50",
-        dark_post_text           = "#f5f5f5",
-        dark_post_accent         = "#00ccff",
-        dark_post_link           = "#00ccff",
-        dark_post_link_hover     = "#f5f5f5",
-        dark_post_link_hover_bg  = "#333333";
-      var light_post_bg          = "#afb5b6",
-        light_post_text          = "#333333",
-        light_post_accent        = "#00ccff",
-        light_post_link          = "#007A99",
-        light_post_link_hover    = "#333333",
-        light_post_link_hover_bg = "#f5f5f5";
-
-    //]]>
-    </script>
-
-    <!-- HTML5 Shiv -->
-    <!--[if lt IE 9]>
-      <script src="/javascript/html5shiv.js"></script>
-      <link rel="stylesheet" href="/css/luomo.ie.20121210.css">
-    <![endif]-->
-
-    <!-- Custom Font Families -->
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:700,700italic|Open+Sans:300|Open+Sans:300,300italic" rel="stylesheet" type="text/css">
   </head>
 
-  <body id="top" class="is_permalink_page">
+  <body>
 
-    <div id="modal_search_box">
-      <form action="/search" method="get">
-        <input onfocus="this.value=''" type="text" data-placeholder="To Search, Type And Hit Enter" value="To Search, Type And Hit Enter" name="q">
-      </form>
-    </div><!-- /#modal_search_box -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/"><i class="fa fa-globe fa-lg fa-fw"></i> Lucas The Nomad</a>
+        </div>
 
-    <div id="blog_wrapper">
-      <header id="blog_header">
-        <div class="inner">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="https://www.facebook.com/lucasparry"><i class="fa fa-facebook-square fa-lg fa-fw"></i> Facebook</a></li>
+            <li><a href="https://www.twitter.com/lucas_parry"><i class="fa fa-twitter-square fa-lg fa-fw"></i> Twitter</a></li>
+            <li><a href="https://www.flickr.com/photos/83213379@N00/"><i class="fa fa-flickr fa-lg fa-fw"></i> Flickr</a></li>
+            <li><a href="https://instagram.com/lparry"><i class="fa fa-instagram fa-lg fa-fw"></i> Instagram</a></li>
+            <li><a href="https://www.couchsurfing.org/people/lucasthenomad/">Couchsurfing</a></li>
+          </ul>
+        </div>
+      </div><!-- /.container -->
+    </nav>
 
-          <div id="blog_header_top">
-            <div id="title_link">
-              <a href="/">
-                <h1 class="page_title">Lucas The Nomad</h1>
-              </a>
-            </div><!-- /#title_link -->
+    <div class="container">
 
-            <div id="social_links">
-              <ul>
-                <li class="facebook"><a href="http://facebook.com/lucas.parry" title="Facebook" target="_blank">facebook</a></li>
-                <li class="flickr"><a href="http://www.flickr.com/photos/83213379@N00/" title="Flickr" target="_blank">flickr</a></li>
-                <li class="instagram"><a href="http://instagram.com/lparry" title="Instagram" target="_blank">instagram</a></li>
-                <li class="twitter"><a href="http://twitter.com/lucas_parry" title="Twitter" target="_blank">twitter</a></li>
-              </ul>
-            </div>
-          </div><!-- /#social_links -->
+      <div class="row">
+        <div class="col-lg-8">
 
+          <section id="posts">
 
-        </div><!-- /.inner -->
-      </header><!-- /#blog_header -->
-
-      <section id="posts">
-
-<article class="post  is_text no_media dark">
-<div class="inner">
-
-  <aside class="post_info_bar">
-<div class="icon_link">
-  <a href="http://www.lucasthenomad.com/2013/05/17/HCMC" title="Permalink">Text</a>
-</div>
-<ul class="post_info">
-  <li class="hide_from_mobile">
-    <a class="timestamp" href="/2013/05/17/HCMC" title="Posted on 17 May 2013">
-      <span class="icon"></span>
-      <span class="legend">Posted on May 17<span>th</span>, 2013</span>
+<article>
+  <h1><a href="/2013/05/17/HCMC">Ho Chi Minh City, Vietnam</a></h1>
+  <p><i class="fa fa-clock-o"></i> Posted on 17 May 2013</p>
     </a>
-  </li>
-  <li>
-    <a class="dsq-comment-count" href="/2013/05/17/HCMC#disqus_thread" title="Comments">
-      <span class="icon"></span>
-      <span class="legend"><span class="hide_from_mobile">Comments</span></span>
-    </a>
-  </li>
-</ul>
-</aside><!-- /.post_info_bar -->
-
-
-  <div class="cont caption has_title">
-    <h2 class="post_title"><a href="/2013/05/17/HCMC">Ho Chi Minh City, Vietnam</a></h2>
-    <div class="post_body">
-      <p>On my first morning in Vietnam I woke, packed my stuff in my private room into my bags and checked out to walk 30M around the corner to the dorm style accommodation I have booked for the rest of my stay here. I wasnt able to check in until 1pm, so I left my big bag and took just my day pack with all the valuable stuff in it. Even with just a tiny laptop and an MFT system camera, valuables still weigh a ton.</p>
+  <br>
+  <p>On my first morning in Vietnam I woke, packed my stuff in my private room into my bags and checked out to walk 30M around the corner to the dorm style accommodation I have booked for the rest of my stay here. I wasnt able to check in until 1pm, so I left my big bag and took just my day pack with all the valuable stuff in it. Even with just a tiny laptop and an MFT system camera, valuables still weigh a ton.</p>
 
 <p>I went out onto the main road to try some delicious baked goods from the bakery recommended to me by the first hostel. They had some pretty tasty stuff, but the place was a big franchise and felt very much like Breadtop back home. I sat outside eating my coffee bun and croissant and a little older Vietnamese lady who was there eating started to talk to me. She asked me where I was from, how long I had been travelling, etc. Then she offered me a massage. I could already see where this was going and told her no, but just in case I had missed her meaning she repeated she would give me massage and &#8220;boom boom&#8221;. At 10am. At a franchise bakery. It seems that being a single male in Vietnam leads to the locals assuming you&#8217;re a sex tourist.</p>
 
-<p class="centered"><a href="http://www.flickr.com/photos/83213379@N00/9686528133/" title="ABC Bakery by Lucas the nomad, on Flickr"><img src="http://farm8.staticflickr.com/7281/9686528133_32719c2319_c.jpg" width="800" height="601" alt="ABC Bakery"></a><br/>
-<em>ABC Bakery</em></p>
+<!-- more -->
+
+
+<p class="flickr-image"><a href="http://www.flickr.com/photos/83213379@N00/9686528133/" title="ABC Bakery by Lucas the nomad, on Flickr"><img alt="ABC Bakery" height="601" src="http://farm8.staticflickr.com/7281/9686528133_32719c2319_c.jpg" width="800" class="img-responsive"><br><em>ABC Bakery</em></a></p>
 
 <p>I set out to explore the city on foot, finding that as a westerner you&#8217;re expected to never want to walk anywhere. I was continuously hassled by motorbike taxis, who couldn&#8217;t seem to accept my answer that I just wanted to walk around and get a feel for the place, constantly rebutting with &#8220;Where do you want to go?&#8221;. I didn&#8217;t want to go anywhere, I just wanted to look around without being accosted damn it.</p>
 
-<p>I ended up at the Ho Chi Minh Museum, an old and massive palace with an underground bunker, filled with bits and pieces of Vietnam&#8217;s history. Sadly the English translations left a lot to be desired so I didn&#8217;t get all that much out of it, but it was a cool building.</p>
+<p>I ended up at the Ho Chi Minh Museum, an old and massive palace with a marble floored underground bunker, filled with bits and pieces of Vietnam&#8217;s history. Sadly the English translations left a lot to be desired so I didn&#8217;t get all that much out of it, but it was a cool building.</p>
 
-<p class="centered"><a href="http://www.flickr.com/photos/83213379@N00/9689649648/" title="Underground bunker door under Ho Chi Minh Museum by Lucas the nomad, on Flickr"><img src="http://farm3.staticflickr.com/2829/9689649648_3e54286c72_c.jpg" width="601" height="800" alt="Underground bunker door under Ho Chi Minh Museum"></a><br/>
-<em>Underground bunker door under Ho Chi Minh Museum</em></p>
+<p class="flickr-image"><a href="http://www.flickr.com/photos/83213379@N00/9689649648/" title="Underground bunker door under Ho Chi Minh Museum by Lucas the nomad, on Flickr"><img alt="Underground bunker door under Ho Chi Minh Museum" height="800" src="http://farm3.staticflickr.com/2829/9689649648_3e54286c72_c.jpg" width="601" class="img-responsive"><br><em>Underground bunker door under Ho Chi Minh Museum</em></a><br><em>Underground bunker door under Ho Chi Minh Museum</em></p>
 
 <p>I started to get too hot so I went looking for somewhere air conditioned to chill for a bit and found a fancy shopping centre. The place looked expensive, which gave me hope that I&#8217;d be able to break on of these stupid 500K Dong notes that the ATM gave me, that pretty much nobody ever has enough change for. I ended up getting lunch there, some fresh spring rolls, pork, eggs and &#8220;broken&#8221; rice, but the rice seems pretty normal to me. Then I bought a nice ice cream, sesame and tapioca, and sat int eh cool typing up a blog post.</p>
 
@@ -134,153 +79,121 @@
 
 <p>I decided that I had gone two long without practicing poi, so I grabbed a set and went and found a spot over in the park across the road near my hostel. After about 5 minutes I had gathered a small crowd of onlookers and children watching me, and after 10 minutes I was dripping with sweat and needed a rest. Two teenagers from the rcowd approached me and wanted to know if I would talk with them for a while so they could practice their English. I agreed and ended up sitting with them for about an hour, talking and answering questions.</p>
 
-    </div>
-    <p style="float:right;"><a href="http://www.lucasthenomad.com/2013/05/17/HCMC#disqus_thread">Leave a comment</a></p>
-  </div>
 
-  <footer class="post_footer">
-<ul class="post_info">
-  <li class="timestamp hide_from_desktop">
-    <a href="/2013/05/17/HCMC" title="Posted on 17 May 2013">
-      Posted on May 17<span>th</span>, 2013
-    </a>
-  </li>
-  <li class="tag_list">
-    <ul class="tags">
-      
-      <li><a href="/tag/vietnam,">vietnam,</a></li>
-      
-      <li><a href="/tag/motorbikes,">motorbikes,</a></li>
-      
-      <li><a href="/tag/food,">food,</a></li>
-      
-      <li><a href="/tag/massages">massages</a></li>
-      
-    </ul>
-  </li>
+<footer class="post_footer">
+  
+  
+  <h4><i class="fa fa-tags fa-lg"></i> Tags</h4>
+<ul class="tags">
+  
+  <li><a href="/tag/vietnam">vietnam</a></li>
+  
+  <li><a href="/tag/motorbikes">motorbikes</a></li>
+  
+  <li><a href="/tag/food">food</a></li>
+  
+  <li><a href="/tag/massages">massages</a></li>
+  
 </ul>
+
+  
 </footer><!-- /.post_footer -->
+  <hr>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'lucasthenomad';
+    var disqus_url = 'http://www.lucasthenomad.com/2013/05/17/HCMC';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
-<div id="disqus_thread"></div>
-<script type="text/javascript" src="http://lucasthenomad.disqus.com/embed.js"></script>
-<noscript><a href="http://lucasthenomad.disqus.com/?url=ref">View the discussion thread.</a></noscript>
-
-
-<!-- End Post Footer -->
-
-
-
-</div><!-- /.inner -->
 </article><!-- /.post -->
 
 </section>
 
 
-      <!-- START FOOTER -->
-
-      <footer class="blog_footer clearfix">
-
-        <div class="inner">
-            <div class="footer_column">
-                  <section class="widget widget_about clearfix">
-                    <h4 class="widget_heading">About Lucas</h4>
-                    <figure class="profile_portrait">
-                      <img src="/images/beardy.jpg" alt="portrait">
-                    </figure>
-                    <p>The story of an irresponsible thirty year old man-child who decided he didn't want to wait until he was old to have a turn at enjoying retirement.</p>
-                    <p>Instead of following the common life path of getting married, buying a house, and having two kids, he's chosen to seek out epic adventures, see the world, and hopefully have great times that he'll reminisce about when he's old and senile.</p>
-                    <div class="clearfix"></div>
-                  </section><!-- /.widget_about -->
-
-
-                <!-- <section class="widget widget_flickr"> -->
-                <!--   <h4 class="widget_heading">Flickr</h4> -->
-                <!--   <ul class="image_feed flickr_feed clearfix" data-id="83213379@N00" data-count="16"> -->
-                <!--   </ul> -->
-                <!-- </section> -->
-
-                <section class="widget widget_navi clearfix">
-                <div id="tripit-badge" style="float: right;">
-                  <script type="text/javascript" src="https://www.tripit.com/account/badge/id/046878A4F53A9A9EA706A9C83153B7F1/div_id/tripit-badge/badge.js"></script>
-                  <noscript><a href="/">TripIt - Organize your travel</a></noscript>
-                </div>
-
-                  <h4 class="widget_heading">Navigate</h4>
-                  <ul class="links">
-                    <li><a href="/atom.xml" class="rss">RSS</a></li>
-                    <li><a href="/archive" class="archive">archive</a></li>
-                  </ul>
-                  <div class="clearfix"></div>
-                </section><!-- /.widget_navi -->
-            </div><!-- /.footer_column -->
-
         </div>
 
-      </footer><!-- /.blog_footer -->
+        <div class="col-lg-4">
+          <div class="well">
+            
+            <h4><i class="fa fa-tags fa-lg"></i> Tags</h4>
+<ul class="tags">
+  
+  <li><a href="/tag/airports">airports</a></li>
+  
+  <li><a href="/tag/bags">bags</a></li>
+  
+  <li><a href="/tag/food">food</a></li>
+  
+  <li><a href="/tag/istanbul">istanbul</a></li>
+  
+  <li><a href="/tag/massages">massages</a></li>
+  
+  <li><a href="/tag/motorbikes">motorbikes</a></li>
+  
+  <li><a href="/tag/packing">packing</a></li>
+  
+  <li><a href="/tag/planes">planes</a></li>
+  
+  <li><a href="/tag/pre-trip">pre-trip</a></li>
+  
+  <li><a href="/tag/streamlining">streamlining</a></li>
+  
+  <li><a href="/tag/turkey">turkey</a></li>
+  
+  <li><a href="/tag/vietnam">vietnam</a></li>
+  
+</ul>
 
-      <div id="back_to_top">
-        <a href="#top">Back to Top</a>
-      </div><!-- /.back_to_top -->
+          </div>
+          <div class="well">
+            <img src="/images/beardy.jpg" class="avatar" width="125px">
+            <h4><i class="fa fa-user fa-lg"></i> About Lucas</h4>
+            <p class="blurb">The story of an irresponsible thirty year old man-child
+              who decided he didn't want to wait until he was old to have
+              a turn at enjoying retirement.</p>
 
-    </div><!-- /#blog_wrapper -->
+            <p class="blurb">Instead of following the common life path of getting
+              married, buying a house, and having two kids, he's chosen
+              to seek out epic adventures, see the world, and hopefully
+              have great times that he'll reminisce about when he's old
+              and senile.</p>
+          </div>
 
-    <!-- Fix Spotify Audio Embeds -->
-    <script type="text/javascript">
-      (function($) {
-        $('.spotify_audio_player').closest('article').addClass('is_spotify_embed');
-      }(this.jQuery));
-    </script>
-
-    <!-- Disqus Comment Count -->
-    <script type="text/javascript">
-    //<![CDATA[
-    (function() {
-      var links = document.getElementsByTagName('a');
-      var query = '?';
-      for(var i = 0; i < links.length; i++) {
-        if(links[i].href.indexOf('#disqus_thread') >= 0) {
-          query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-        }
-      }
-      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/lucasthenomad/get_num_replies.js' + query + '"></' + 'script>');
-    })();
-    //]]>
-    </script>
-
-<script type="text/javascript">
-    //<![CDATA[
-    // remove .dark from posts so the lumo JS can put the final colours on posts
-    $(".post").each(function () {
-        var post = $(this);
-            post.removeClass("dark");
-            }
-        );
-
-    //]]>
-    </script>
-
-    <!-- Theme JavaScript Files -->
-    <script src="/javascript/luomo.plugins.js"></script>
-    <script src="/javascript/luomo.scripts.20130126.min.js"></script>
+          <div class="well">
+            <h4><i class="fa fa-search fa-lg"></i> Navigate</h4>
+            <ul>
+              <li><a href="/archive" class="archive">Archive</a></li>
+              <li><a href="/atom.xml" class="rss">RSS</a></li>
+            </ul>
+          </div>
 
 
-    <!-- fittext the page title -->
-    <script src="/javascript/jquery.fittext.js"></script>
-    <script type="text/javascript">
-      //<![CDATA[
-    $("#title_link h1").fitText();
-    //]]>
-    </script>
+        </div>
+      </div>
+      
+      <hr>
+      
+      <!-- <footer> -->
+      <!--   <div class="row"> -->
+      <!--     <div class="col-lg-12"> -->
+      <!--     </div> -->
+      <!--   </div> -->
+      <!-- </footer> -->
 
-    <script type="text/javascript">
-    //<![CDATA[
-      var _gaq=[['_setAccount','UA-8216018-4'],['_trackPageview']];
-        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src='https://ssl.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-    //]]>
-    </script>
+    </div><!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="/js/jquery-1.10.2.js"></script>
+    <script src="/js/bootstrap.js"></script>
 
   </body>
 </html>
