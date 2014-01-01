@@ -6,10 +6,23 @@
     <meta name="description" content="Lucas The Nomad">
     <meta name="author" content="Lucas Parry">
 
-    <meta property="og:site_name" content="Lucas The Nomad" />
+    <meta property="og:site_name" content="www.lucasthenomad.com" />
     <meta property="og:url" content="http://www.lucasthenomad.com/blog/page/6/index.html" />
     <meta property="og:title" content=" He's a nomad " />
-    <meta property="og:description" content="{% assign index = true %}{% for post in paginator.posts %}  {% assign content = post.content %}  {% if post.layout == "post" %}    {% include _post_excerpt.html %}  {% elsif post.layout == "quote" %}    {% include _quote.html %}  {% endif %}{% endfor %}  {% if paginator.previous_page %}     Newer &hellip;" />
+    <meta property="og:description" content="{% assign index = true %}
+
+{% for post in paginator.posts %}
+  {% assign content = post.content %}
+  {% if post.layout == "post" %}
+    {% include _post_excerpt.html %}
+  {% elsif post.layout == "quote" %}
+    {% include _quote.html %}
+  {% endif %}
+{% endfor %}
+
+
+
+  {% if paginator.previous_page &hellip;" />
     <meta property="og:determiner" content="a" />
     <meta property="og:type" content="blog" />
 
