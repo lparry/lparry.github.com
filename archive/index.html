@@ -6,13 +6,22 @@
     <meta name="description" content="Lucas The Nomad">
     <meta name="author" content="Lucas Parry">
 
-    <title>Lucas The Nomad |  He's a nomad </title>
+    <meta property="og:site_name" content="Lucas The Nomad" />
+    <meta property="og:url" content="http://www.lucasthenomad.com/archive/index.html" />
+    <meta property="og:title" content=" He's a nomad " />
+    <meta property="og:description" content="Archive{% for post in site.posts %}{{ post.date_formatted }} - {{ post.title }}{% endfor %}" />
+    <meta property="og:determiner" content="a" />
+    <meta property="og:type" content="blog" />
+
+    <title> He's a nomad  | Lucas The Nomad</title>
 
     <link href="/css/css.css" rel="stylesheet">
 
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD///8AMm83ABkaHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIiIiIiIAAAIgAAAAAiAAAgAAAAAAIAAiAAIAIAAiAiIgAgAgAiIiESIiIiIiESIRERAAARERIgARAAAAEQAiAAEAAAAQACIAAQAAABAAIiABEAABEAIgIBERERERAgAiEAEREAEiAAIgABEAAiAAACIgEQIiAAAAACIiIgAADgBwAAwAMAAMADAACAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAACAAQAAwAMAAOAHAAD4HwAA" rel="icon" type="image/x-icon" />
 
   </head>
 
@@ -51,8 +60,6 @@
           <h1>Archive</h1>
 
 <ul>
-
-<li><a href="/2013/12/20/istanbul-turkey">Dec 20<span>th</span>, 2013 - Istanbul, Turkey</a></li>
 
 <li><a href="/2013/12/05/spreepark-berlin">Dec 5<span>th</span>, 2013 - Spreepark, Berlin</a></li>
 
@@ -168,8 +175,6 @@
   
   <li><a href="/tag/introspection">introspection</a></li>
   
-  <li><a href="/tag/istanbul">istanbul</a></li>
-  
   <li><a href="/tag/jinja">jinja</a></li>
   
   <li><a href="/tag/johannesburg">johannesburg</a></li>
@@ -225,8 +230,6 @@
   <li><a href="/tag/trains">trains</a></li>
   
   <li><a href="/tag/travelling">travelling</a></li>
-  
-  <li><a href="/tag/turkey">turkey</a></li>
   
   <li><a href="/tag/uganda">uganda</a></li>
   
