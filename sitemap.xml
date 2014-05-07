@@ -57,17 +57,17 @@
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/05/30/phu-qouc-island-vietnam</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/06/14/mountain-biking-in-siem-reap</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/06/27/airport-security-in-india</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
@@ -77,7 +77,7 @@
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/06/30/thailand</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
@@ -118,12 +118,12 @@
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/09/16/south-africa</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T16:58:08-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2013/09/23/zanzibar-tanzania</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>0.5</priority>
     </url>
     <url>
@@ -173,11 +173,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://www.lucasthenomad.com/2014/01/26/poi-love-camp</loc>
-        <lastmod>2014-05-03T14:18:18-06:00</lastmod>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>http://www.lucasthenomad.com/2014/02/06/turkey</loc>
         <lastmod>2014-05-03T14:18:18-06:00</lastmod>
         <priority>0.5</priority>
@@ -203,11 +198,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://www.lucasthenomad.com/2014/04/20/granada</loc>
-        <lastmod>2014-05-04T12:16:49-06:00</lastmod>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>http://www.lucasthenomad.com/2014/04/23/berlin-part-3</loc>
         <lastmod>2014-05-03T14:18:18-06:00</lastmod>
         <priority>0.5</priority>
@@ -218,18 +208,13 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>http://www.lucasthenomad.com/2014/05/04/the-rest-of-analucia</loc>
-        <lastmod>2014-05-06T15:43:02-06:00</lastmod>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>http://www.lucasthenomad.com/archive/</loc>
-        <lastmod>2014-05-06T15:43:02-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/</loc>
-        <lastmod>2014-05-06T15:43:02-06:00</lastmod>
+        <lastmod>2014-05-07T17:04:49-06:00</lastmod>
         <priority>1.0</priority>
     </url>
 </urlset>
