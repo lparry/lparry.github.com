@@ -228,17 +228,21 @@
         <lastmod>2014-07-01T20:35:14-06:00</lastmod>
     </url>
     <url>
+        <loc>http://www.lucasthenomad.com/2014/07/18/corcovado-national-park-costa-rica</loc>
+        <lastmod>2014-07-18T16:54:52-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.lucasthenomad.com/css/css/css.css</loc>
         <lastmod>2014-06-30T09:20:07-06:00</lastmod>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/archive/archive/</loc>
-        <lastmod>2014-07-01T20:35:14-06:00</lastmod>
+        <lastmod>2014-07-18T16:54:52-06:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/</loc>
-        <lastmod>2014-07-01T20:35:14-06:00</lastmod>
+        <lastmod>2014-07-18T16:54:52-06:00</lastmod>
         <priority>1.0</priority>
     </url>
 </urlset>
