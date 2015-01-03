@@ -233,7 +233,7 @@
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2014/07/29/uvita-costa-rica</loc>
-        <lastmod>2014-08-09T21:09:37-05:00</lastmod>
+        <lastmod>2015-01-03T16:37:05-06:00</lastmod>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/2014/07/31/nicoya-peninsula-costa-rica</loc>
@@ -260,17 +260,21 @@
         <lastmod>2014-12-16T21:02:49-06:00</lastmod>
     </url>
     <url>
+        <loc>http://www.lucasthenomad.com/2015/01/03/firedrums-2014-and-san-francisco</loc>
+        <lastmod>2015-01-03T17:22:09-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.lucasthenomad.com/css/css/css.css</loc>
         <lastmod>2014-06-30T10:20:07-05:00</lastmod>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/archive/archive/</loc>
-        <lastmod>2014-12-16T21:02:49-06:00</lastmod>
+        <lastmod>2015-01-03T17:22:09-06:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/</loc>
-        <lastmod>2014-12-16T21:02:49-06:00</lastmod>
+        <lastmod>2015-01-03T17:22:09-06:00</lastmod>
         <priority>1.0</priority>
     </url>
 </urlset>
