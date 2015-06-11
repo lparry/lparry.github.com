@@ -312,6 +312,12 @@
         <lastmod>2015-06-10T17:57:32-06:00</lastmod>
     </url>
     <url>
+        <loc>
+            http://www.lucasthenomad.com/2015/06/11/rio-dulce-livingston-and-trying-to-leave-guatemala
+        </loc>
+        <lastmod>2015-06-11T10:03:35-06:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.lucasthenomad.com/404.html</loc>
         <lastmod>2015-06-10T17:57:32-06:00</lastmod>
         <priority>1.0</priority>
@@ -322,17 +328,17 @@
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/archive/archive/</loc>
-        <lastmod>2015-06-10T17:57:32-06:00</lastmod>
+        <lastmod>2015-06-11T10:03:35-06:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/</loc>
-        <lastmod>2015-06-10T17:57:32-06:00</lastmod>
+        <lastmod>2015-06-11T10:03:35-06:00</lastmod>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>http://www.lucasthenomad.com/map/map/</loc>
-        <lastmod>2015-06-10T17:57:32-06:00</lastmod>
+        <lastmod>2015-06-11T10:03:35-06:00</lastmod>
         <priority>1.0</priority>
     </url>
 </urlset>
