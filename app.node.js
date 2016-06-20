@@ -23290,7 +23290,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.nextLink {\n  float: right;\n  margin: 40px;\n}\n\n.nextLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.nextLink__hideable {\n  display: none;\n}\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.nextLink {\n  float: right;\n  margin: 40px;\n}\n\n.nextLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.nextLink__hideable {\n  display: visible;\n}\n\n@media (max-width: 375px) {\n  .nextLink__hideable {\n    display: none;\n  }\n}\n", ""]);
 
   // exports
 
@@ -23318,7 +23318,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.previousLink {\n  float: left;\n  margin: 40px;\n}\n\n.previousLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.previousLink__hideable {\n  display: none;\n}\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.previousLink {\n  float: left;\n  margin: 40px;\n}\n\n.previousLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.previousLink__hideable {\n  display: visible;\n}\n\n@media (max-width: 375px) {\n  .previousLink__hideable {\n    display: none;\n  }\n}\n", ""]);
 
   // exports
 
