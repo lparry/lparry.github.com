@@ -575,11 +575,10 @@ module.exports =
       _react2.default.createElement(
         _Link2.default,
         { to: to },
-        "Older ",
         _react2.default.createElement(
           "span",
           { className: "nextLink__hideable" },
-          "Stories "
+          "Older Stories"
         ),
         _react2.default.createElement(_Icons.ArrowRight, { style: { marginLeft: "5px" } })
       )
@@ -626,11 +625,10 @@ module.exports =
         _Link2.default,
         { to: to },
         _react2.default.createElement(_Icons.ArrowLeft, { style: { marginRight: "5px" } }),
-        " Newer",
         _react2.default.createElement(
           "span",
           { className: "previousLink__hideable" },
-          " Stories"
+          "Newer Stories"
         )
       )
     );
@@ -23360,7 +23358,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.tagCloud__tags {\n  padding: 20px;\n}\n\n.tagCloud__title {\n  font-size: medium;\n  margin-right: 5px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  float: left;\n}\n\n.tagCloud__title svg {\n  margin-right: 4px;\n  margin-bottom: -3px;\n}\n\n.tagCloud__tag {\n  display: inline-block;\n  font-size: small;\n  padding: 2px 6px;\n  margin: 3px;\n  margin-bottom: 6px;\n  background: grey;\n  border-radius: 8px;\n  border-width: 1px;\n  border-style: solid;\n  border-color: #5d5d5d\n}\n\n.tagCloud__tag:hover {\n  background: black;\n}\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.tagCloud__tags {\n  padding: 20px;\n}\n\n.tagCloud__title {\n  font-size: medium;\n  margin-right: 5px;\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n  float: left;\n}\n\n.tagCloud__title svg {\n  margin-right: 4px;\n  margin-bottom: -3px;\n}\n\n.tagCloud__tag {\n  display: inline-block;\n  font-size: small;\n  padding: 2px 6px;\n  margin: 3px;\n  margin-bottom: 6px;\n  background: grey;\n  border-radius: 8px;\n  border-width: 1px;\n  border-style: solid;\n  border-color: #5d5d5d\n}\n\n.tagCloud__tag:hover {\n  background: black;\n}\n\n@media (max-width: 768px) {\n  .tagCloud__tag {\n    margin: 5px;\n    margin-bottom: 10px;\n  }\n}\n", ""]);
 
   // exports
 
