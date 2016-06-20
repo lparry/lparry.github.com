@@ -575,7 +575,12 @@ module.exports =
       _react2.default.createElement(
         _Link2.default,
         { to: to },
-        "Older Stories ",
+        "Older ",
+        _react2.default.createElement(
+          "span",
+          { className: "nextLink__hideable" },
+          "Stories "
+        ),
         _react2.default.createElement(_Icons.ArrowRight, { style: { marginLeft: "5px" } })
       )
     );
@@ -621,7 +626,12 @@ module.exports =
         _Link2.default,
         { to: to },
         _react2.default.createElement(_Icons.ArrowLeft, { style: { marginRight: "5px" } }),
-        " Newer Stories"
+        " Newer",
+        _react2.default.createElement(
+          "span",
+          { className: "previousLink__hideable" },
+          " Stories"
+        )
       )
     );
   };
@@ -23238,7 +23248,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #272B30;\n  color: #c8c8c8;\n  font-family: 'Roboto','Helvetica',sans-serif;\n  height: 100%;\n  width: 100%;\n}\n\nhtml svg path, body svg path {\n  fill: #c8c8c8;\n}\n\n.root {\n  width: 100vw;\n  height: 100%;\n}\n\n.content {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  padding: 30px;\n}\n\n.layout {\n  margin: 0 auto 0 auto;\n}\n\n.videoWrapper {\n  position: relative;\n  padding-bottom: 56.25%; /* 16:9 */\n  padding-top: 25px;\n  height: 0;\n  margin: auto 27px auto 27px;\n}\n\n.videoWrapper iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  padding: 1px;\n  box-shadow: 2px 2px 2px 0px #111;\n  background-color: white;\n}\n\n.excerpt {\n  padding: 0 50px 0 20px;\n  font-style: italic;\n}\n\n.quote {\n  padding: 0 50px 0 20px;\n  font-style: italic;\n}\n\n.quote-attribution {\n  margin-right: 100px;\n  text-align: right\n}\n\n.quote-attribution:before {\n  content: \"\\2014   \";\n}\n\n.layout {\n  width: calc(1280px - 30px);\n}\n\n.layout img {\n  max-width: calc(1280px - 80px);\n}\n\n@media (max-width: 768px) {\n  .layout {\n    width: calc(768px - 22px);\n  }\n  .layout img {\n    max-width: calc(768px - 80px);\n  }\n}\n\n@media (max-width: 375px) {\n  .layout {\n    width: 100vw;\n  }\n  .layout img {\n    max-width: calc(100vw - 40px);\n  }\n}\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\nhtml, body {\n  margin: 0;\n  padding: 0;\n  background-color: #272B30;\n  color: #c8c8c8;\n  font-family: 'Helvetica','Roboto',sans-serif;\n  height: 100%;\n  width: 100%;\n}\n\nhtml svg path, body svg path {\n  fill: #c8c8c8;\n}\n\n.root {\n  width: 100vw;\n  height: 100%;\n}\n\n.content {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-wrap: wrap;\n      flex-wrap: wrap;\n  padding: 30px;\n}\n\n.layout {\n  margin: 0 auto 0 auto;\n}\n\n.videoWrapper {\n  position: relative;\n  padding-bottom: 56.25%; /* 16:9 */\n  padding-top: 25px;\n  height: 0;\n  margin: auto 27px auto 27px;\n}\n\n.videoWrapper iframe {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  padding: 1px;\n  box-shadow: 2px 2px 2px 0px #111;\n  background-color: white;\n}\n\n.excerpt {\n  padding: 0 50px 0 20px;\n  font-style: italic;\n}\n\n.quote {\n  padding: 0 50px 0 20px;\n  font-style: italic;\n}\n\n.quote-attribution {\n  margin-right: 100px;\n  text-align: right\n}\n\n.quote-attribution:before {\n  content: \"\\2014   \";\n}\n\n.layout {\n  width: calc(1280px - 30px);\n}\n\n.layout img {\n  max-width: calc(1280px - 80px);\n}\n\n@media (max-width: 768px) {\n  .layout {\n    width: calc(768px - 22px);\n  }\n  .layout img {\n    max-width: calc(768px - 80px);\n  }\n}\n\n@media (max-width: 375px) {\n  .layout {\n    width: 100vw;\n  }\n  .layout img {\n    max-width: calc(100vw - 40px);\n  }\n}\n", ""]);
 
   // exports
 
@@ -23280,7 +23290,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.nextLink {\n  float: right;\n  margin: 40px;\n}\n\n.nextLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.nextLink {\n  float: right;\n  margin: 40px;\n}\n\n.nextLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.nextLink__hideable {\n  display: none;\n}\n", ""]);
 
   // exports
 
@@ -23308,7 +23318,7 @@ module.exports =
 
 
   // module
-  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.previousLink {\n  float: left;\n  margin: 40px;\n}\n\n.previousLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n", ""]);
+  exports.push([module.id, "/*\n * Scaffolding\n * -------------------------------------------------------------------------- */\n\n/*\n * Typography\n * -------------------------------------------------------------------------- */\n\n/*\n * Media queries breakpoints\n * -------------------------------------------------------------------------- */\n\n.previousLink {\n  float: left;\n  margin: 40px;\n}\n\n.previousLink a {\n  display: -ms-flexbox;\n  display: flex;\n  -ms-flex-align: center;\n      align-items: center;\n}\n\n.previousLink__hideable {\n  display: none;\n}\n", ""]);
 
   // exports
 
